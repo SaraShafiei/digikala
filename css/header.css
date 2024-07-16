@@ -1,0 +1,23 @@
+
+header{width: 100%;
+height: 120px;
+background-color: aqua;}
+
+.top{width: calc(100% - 160px);
+height: 60px;
+background-color: gray;
+margin: 0 auto;}
+
+.right{ width: 60%;
+height: 60px;
+background-color: rgba(163, 123, 123, 0.784);
+display: flex;
+flex-direction: row;
+column-gap: 15px;
+justify-content: flex-start;
+align-items: center;}
+
+.right a{ width: fit-content;
+text-align: center;
+background-color: blue;}
+
