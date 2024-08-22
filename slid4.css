@@ -1,0 +1,18 @@
+*{padding: 0%;
+margin: 0%;
+box-sizing: border-box;}
+
+.section .slid4{width: 1340px;
+height: 290;
+display: flex;
+flex-direction: row;
+justify-content: center;
+position: absolute;
+top: 2550px;
+right: 85px;}
+
+.section .slid4 div{ width: 335px;
+height: 250px;}
+
+.section .slid4 a img{ width: 325px; height: 250px; border: 3px solid gray; border-radius:25px ; -webkit-border-radius:25px ; -moz-border-radius:25px ; -ms-border-radius:25px ; -o-border-radius:25px ;
+}

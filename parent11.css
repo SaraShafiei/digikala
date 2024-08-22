@@ -1,0 +1,103 @@
+
+.section{position: relative;}
+.section .parent11{
+    width: calc(100% - 120px);
+    height: 80px;
+    display: flex;
+flex-direction: row;
+column-gap: 50px;
+justify-content: flex-start;
+align-items: center;
+position: absolute;
+top: 850px;
+right: 180px;
+}
+
+.section .parent11 a{text-decoration: none;}
+
+.section .parent11 .image{ width: 60px;
+height: 60px;}
+
+.section .parent11 .image img{width: 60px;
+height: 60px;}
+
+.section .parent11 .order{width: 60px;
+height: 20px;
+text-align: center;}
+
+.section .parent11 .more{ width:600px;
+height: 500px;
+overflow: scroll;
+background-color: yellow;
+position: absolute;
+inset: 250px 0;
+margin: auto;
+display: none;
+z-index: 9999;
+
+}
+
+label[for=show2]{width: 100px;
+    display: inline-block;
+height: 50px;
+background-color: lime;}
+
+#show2:checked ~ .more{display: block;}
+
+label[for=hide2]{ width: 50px; height: 50px; background-color: green; border-radius:25px ; -webkit-border-radius:25px ; -moz-border-radius:25px ; -ms-border-radius:25px ; -o-border-radius:25px ;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.section .parent11 .more .div13{width: 100%;
+height: 50px;
+border-bottom: 3px solid gray;}
+
+.section .parent11 .more .services{display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 550px;
+column-gap: 30px;
+row-gap: 25px;
+padding: 30px;}
+
+
+.section .parent11 .more .services .order{width: 60px;
+height: 30px;
+text-align: center;}
+
+h4{display: inline-block;
+margin-right: 40px;}
+
+.section .parent11 .more .services2 {display: flex;
+justify-content: space-between;
+padding-right: 25px;
+padding-left: 25px;}
+
+.section .parent11 .more .services2 .yek a { display: flex; width: 250px; height: 90px; flex-direction: row; column-gap: 20px; border: 4px solid gray; border-radius:25px ; -webkit-border-radius:25px ; -moz-border-radius:25px ; -ms-border-radius:25px ; -o-border-radius:25px ;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+
+
+.section .parent11 .more .services2 .yek a .order{ width: 80px;
+    text-align: justify;
+}
+
+.section .parent11 .more .services2 .two a{ display: flex; width: 250px; height: 90px; flex-direction: row; column-gap: 20px; border: 4px solid gray; border-radius: 25px; -webkit-border-radius: 25px; -moz-border-radius: 25px; -ms-border-radius: 25px; -o-border-radius: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.section .parent11 .more .services2 .two a .order{ width: 80px;
+text-align: justify;}

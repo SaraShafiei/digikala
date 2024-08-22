@@ -1,0 +1,100 @@
+
+*{padding: 0%;
+margin: 0%;
+box-sizing: border-box;}
+
+.section .slider3{
+    position: absolute;
+    width: calc(100%-120px);
+    height: 400px;
+    top: 1000px;
+    right: 60px;
+    left: 60px;
+    background-color: brown;
+    border: 20px solid brown;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .red{ display: flex;
+flex-direction: column;
+row-gap: 25px;
+justify-content: center;
+background-color: brown;
+width: 150px;
+height: 350px;}
+
+.fee3::after{
+  content: "2%";
+  font-size: 14px;
+  width: 12px;
+  height: 6px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  background-color: red;
+  color: white;
+}
+
+.fee4::after{
+  content: "2%";
+  font-size: 14px;
+  width: 22px;
+  height: 16px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  background-color: red;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fee5::after{
+  content: "2%";
+  font-size: 14px;
+  width: 22px;
+  height: 16px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  background-color: red;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image6{width: 120px;
+height: 120px;}

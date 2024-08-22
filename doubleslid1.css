@@ -1,0 +1,22 @@
+*{margin: 0%;
+padding: 0%;
+box-sizing: border-box;}
+
+.section .doubleslid1{ width: 1230px;
+height: 300px;
+position: absolute;
+top: 3000px;
+right: 90px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: nowrap;}
+
+.section .doubleslid1 div{ width: 599px;
+height: 298px;
+border: 1px solid whitesmoke;}
+
+.section .doubleslid1 div a {display: flex;}
+
+.section .doubleslid1 div a img{ width: 599px; height: 299px; border-radius:25px; -webkit-border-radius:25px; -moz-border-radius:25px; -ms-border-radius:25px; -o-border-radius:25px;
+}
